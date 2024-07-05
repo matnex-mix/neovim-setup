@@ -1,0 +1,8 @@
+{
+  "configurations": {
+    "launch": {
+      "adapter": "local-lua-debugger-vscode",
+      "filetypes": [ "lua" ]
+    }
+  }
+}

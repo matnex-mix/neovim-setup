@@ -5,6 +5,9 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set wildmenu")
 vim.cmd("set number")
 
+vim.cmd("let g:vimspector_enable_mappings = 'HUMAN'")
+vim.cmd("let g:vimspector_install_gadgets = [ 'debugpy', 'vscode-cpptools', 'CodeLLDB' ]")
+
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
